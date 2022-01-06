@@ -1,0 +1,149 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+p{
+    line-height: 25px;;
+}
+.top-banner,.Know,.documentation,.become,.become-flexible{
+    display: flex;
+    margin: 20px 150px 10px;
+}
+.gray{
+    color:tomato
+}
+.half-width{
+    width: 50%;
+    margin-top: 70px;
+   
+}
+.half-width img{
+    width: 80%;
+    margin-top: -100px;
+    margin-left: 70px;
+    
+}
+.top-banner h1{
+    font-size: 50px;
+  
+    
+}
+a.green{
+    color:white;
+    background: rgb(11, 184, 11);
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 7px;
+}
+.left-border{
+    border-left: 5px solid greenyellow;
+    padding-left: 10px;
+}
+/*
+===================
+  my mission 2022 area
+===================
+*/
+.mission-area{
+    margin: -10px 90px 10px;
+    padding: 50px;
+}
+.mission-area .mission-title{
+    font-size:50px;
+}
+.my-mission{
+    display: flex;
+}
+.mission-title span{
+    color:lightcoral;
+}
+.my-mission img{
+    width:100px;
+}
+.mission-title{
+    text-align: center;
+}
+#mission{
+    background: rgba(206, 35, 35,0.2)
+}
+#vission{
+    background: rgba(0, 51, 255, .2);
+    margin-left: 25px;
+    margin-right: 25px;
+}
+#Goals{
+    background: rgba(130, 20, 147,0.2)
+}
+.flexible-containt{
+    border-radius: 15px;
+    padding: 50px 30px;
+}
+
+/*
+    Documantation-area
+*/
+.documentation .left img{
+    width:80%;
+}
+.documentation .right{
+    margin-left: -30px;
+    
+}
+/*
+===================
+     Know-area
+===================
+*/
+.Know-area{
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.Know-area .right img{
+    width:100%;
+}
+.Know-area .right{
+    width:90%;
+}
+/*
+=====================
+    become-area
+=====================
+*/
+.become-header{
+    text-align: center;
+}
+.become-flexible .right form{
+    margin-left: 200px;
+    box-shadow:10px 10px 40px gray;
+    padding: 40px;
+}
+.become-area{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.right form input{
+    margin-button: -50px;
+}
+
+/*
+=====================
+     footer- area
+=====================
+*/
+footer{
+    background:black;
+    text-align: center;
+   padding-top: 30px;
+   padding-bottom: 30px;
+}
+footer .white,h2{
+    color:white;
+    
+}
+footer span{
+    color:springgreen;
+}
+footer p{
+    color:rgba(244, 230, 242, 0.5);
+    font-family: 'Lobster', cursive;
+}
